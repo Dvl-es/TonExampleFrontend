@@ -540,6 +540,22 @@
   dependencies:
     symbol.inspect "1.0.1"
 
+"@ton/crypto-primitives@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ton/crypto-primitives/-/crypto-primitives-2.0.0.tgz#446256146d64fcec6e3f21d9f40b5148640329cc"
+  integrity sha512-wttiNClmGbI6Dfy/8oyNnsIV0b/qYkCJz4Gn4eP62lJZzMtVQ94Ko7nikDX1EfYHkLI1xpOitWpW+8ZuG6XtDg==
+  dependencies:
+    jssha "3.2.0"
+
+"@ton/crypto@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@ton/crypto/-/crypto-3.2.0.tgz#8fcb36cc93eafd05249c847d1f4ad39cf2565e46"
+  integrity sha512-50RkwReEuV2FkxSZ8ht/x9+n0ZGtwRKGsJ0ay4I/HFhkYVG/awIIBQeH0W4j8d5lADdO5h01UtX8PJ8AjiejjA==
+  dependencies:
+    "@ton/crypto-primitives" "2.0.0"
+    jssha "3.2.0"
+    tweetnacl "1.0.3"
+
 "@ton/ton@^13.11.1":
   version "13.11.1"
   resolved "https://registry.yarnpkg.com/@ton/ton/-/ton-13.11.1.tgz#d72169a6a5bf7fce6e556126c56391139442b1e2"
